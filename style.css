@@ -79,6 +79,42 @@
         #imagem{
             width: 295px;
             max-width: 295px;
-            height: 275px;
+            height: 300px;
             
+        }
+
+        #carddescricao{
+            font-size: 22px;
+            margin: 10px 0 ;
+            width: 252px;
+            height: auto;
+            border: #dfdddb solid 2px;
+            
+        }
+
+        #descricao {
+            color: #666;
+            width: 100%;
+            height: auto;
+            background-color: #fdeb23;
+        }
+
+        #butao {
+            width: 182px;
+            height: 47px;
+            background-color: red;
+            border-radius: 5%;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            color: white;
+            border: black solid 2px;
+            font-weight: bold;
+
+        }
+
+        #butao:hover{
+            background-color: rebeccapurple;
+            color: #ffff;
+            border: red;
         }
